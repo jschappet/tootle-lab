@@ -1,0 +1,393 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+        margin:0px;
+        padding:0px;
+        background-color:#ffffff;
+        background-image:url(../images/background_img.gif);
+        background-repeat:repeat-x;
+        color:#666666;
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+margin-top:5px;
+font-family:Calibri, Arial, Helvetica, sans-serif;
+}
+
+
+h3 {
+margin-top:5px;
+font-family:Calibri, Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited {
+color:#25005C;
+
+}
+
+a:hover {
+color:#ff6600;
+}
+
+
+/* top banner contains main menu and header */
+
+#top_banner, div.region-navigation {
+
+        width:100%;
+        background-color:#202620;
+        height:75px;
+        color:white;
+	margin-top: -20px;
+
+}
+
+#block-menu-menu-site-menu {
+  margin-left:auto;
+  margin-right:auto;
+  height:75px;
+  width:900px;
+}
+
+#block-menu-menu-site-menu ul {
+
+        margin-left:-40px;
+}
+
+#block-menu-menu-site-menu li {
+float:left;
+list-style:none;
+
+}
+
+#block-menu-menu-site-menu a:link, #navigation a:visited {
+text-decoration:none;
+color:white;
+font-family:Calibri, Arial, Helvetica, sans-serif;
+font-size:16px;
+line-height:75px;
+display:block;
+        padding:0px 15px 0px 15px;
+}
+
+#block-menu-menu-site-menu a:hover {
+        background-image:url(../images/nav_bg.gif);
+        background-repeat:repeat-x;
+
+}
+
+
+
+#container {
+width:900px;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+
+#header {
+width:100%;
+height:100px;
+
+
+}
+
+#logos {
+	width:900px;
+height:100px;
+}
+#logo {
+width:250px;
+float:left;
+height:100px;
+}
+
+
+#UI {
+padding-top:32px;
+width:210px;
+float:right;
+height:60px;
+}
+
+
+#search {
+	width:890px;
+        padding:5px 0px 5px 0px;
+        float:left;
+        height:30px;
+}
+
+#resize {
+
+
+float:right;
+        height:30px;
+        width:100px;
+        color:#666666;
+font-family:Calibri, Arial, Helvetica, sans-serif;
+text-align:right;
+}
+
+
+#resize a:link, #resize a:visited {
+
+
+text-decoration:none;
+font-family:Calibri, Arial, Helvetica, sans-serif;
+color:#666666;
+}
+
+#resize a:hover {
+
+
+text-decoration:underline;
+
+
+}
+
+
+#search_box {
+float:right;
+        height:30px;
+        width:250px;
+        text-align:right;
+        color:#666666;
+font-family:Calibri, Arial, Helvetica, sans-serif;
+}
+
+/* end of header styles */
+/* start of body styles */
+
+#content_1 {
+height:300px;
+width:100%;
+
+}
+
+#orangebox {
+width:305px;
+        height:140px;
+        background-image:url(../images/orange_bg.gif);
+        background-repeat:no-repeat;
+        float:left;
+        color:white;
+        font-size:16px;
+        line-height:20px;
+font-family:Calibri, Arial, Helvetica, sans-serif;
+        padding:160px 0px 0px 10px;
+}
+
+#main_image {
+width:585px;
+height:300px;
+        float:left;
+        background-image:url(../images/main_image.gif);
+
+}
+
+#content_2_topdetail {
+clear: both;
+        width:900px;
+background-image:url(../images/top_corners.gif);
+background-repeat:no-repeat;
+height:34px;
+margin:50px 0px 0px 0px;
+}
+
+
+#content_2 {
+width:900px;
+background-color:#cccccc;
+        min-height:200px;
+}
+
+
+#content_2_left {
+padding: 0px 20px 0px 20px;
+        width:590px;
+        float:left;
+}
+
+
+#content_2_right {
+padding: 0px 0px 0px 20px;
+border-left:white solid 1px;
+width:249px;
+float:left;
+}
+
+
+
+
+
+
+
+#content_2_bottomdetail {
+        width:900px;
+background-image:url(../images/bottom_corners.gif);
+background-repeat:no-repeat;
+height:37px;
+
+}
+
+/* end of content areas */
+/* start of footer */
+
+#footer {
+margin:10px 0px 20px 0px;
+width:900px;
+height:20px;
+}
+
+#bottom_nav {
+        width:60%;
+        float:left;
+
+}
+
+#bottom_nav ul {
+        margin:0px 0px 0px -40px;
+
+}
+
+#bottom_nav li {
+list-style:none;
+float:left;
+        padding:0px 10px 0px 10px;
+}
+
+#bottom_nav a:link, #bottom_nav a:visited {
+color:#666666;
+text-decoration:none;
+font-family:Calibri, Arial, Helvetica, sans-serif;
+        font-size:11px;
+        line-height:20px;
+}
+
+#bottom_nav a:hover {
+text-decoration:underline;
+        color:#ff6600;
+}
+
+#copyright {
+width:40%;
+text-align:right;
+font-family:Calibri, Arial, Helvetica, sans-serif;
+        font-size:11px;
+        float:left;
+        line-height:20px;
+        color:#ff6600;
+}
+
+
+/* hide any HRs used in the layout, but show them in main content */
+hr,
+.ahem,
+#skip-link {
+  display: none;
+}
+#content hr {
+  display: block;
+}
+
+/* uncomment these color rules to make the layout easier to see */
+/*
+#main           { background: #ccc; }
+#content        { background: #eee; }
+#sidebar-first  { background: #ccf; }
+#sidebar-second { background: #fcc; }
+#navigation     { background: #ffc; }
+#header         { background: #cff; }
+#footer         { background: #cfc; }
+*/
+
+/* Holy Grail Layout ---------------------------------------------------------
+   ref: http://www.alistapart.com/articles/holygrail
+   This layout takes advantage of negative margins to float the sidebars to
+   either side of the main content. It also floats the navigation above the
+   content, but you could just as easily absolutely position it.
+   
+   LC stands for Left Column, RC for Right Column
+   
+   Obvously, this layout is for left-to-right languages. For a
+   right-to-left layout, just swap all the left and rights below.
+   */
+#container {
+  width: 900;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#content,
+#navigation,
+#sidebar-first,
+#sidebar-second {
+  float: left;
+}
+.with-navigation #content,
+.with-navigation #sidebar-first,
+.with-navigation #sidebar-second {
+  margin-top: 3em;       /* NAV height */
+}
+#navigation {
+  height: 3em;           /* NAV height */
+  width: 100%;
+  margin-right: -100%;
+}
+#navigation h2 {
+  margin: 0;
+}
+#content {
+  width: 100%;
+  margin-right: 0px; 
+  margin-left: 0px; 
+}
+.sidebar-first #content .section {
+  padding-left:0px;   /* LC width */
+}
+.sidebar-second #content .section {
+  padding-right: 160px;  /* RC width */
+}
+.two-sidebars #content .section {
+  padding-left: 200px;   /* LC width */
+  padding-right: 160px;  /* RC width */
+}
+#sidebar-first {
+  width: 200px;          /* LC width */
+  margin-right: -200px;
+}
+#sidebar-second {
+  float: right;
+  width: 160px;          /* RC width */
+  margin-left: -160px;   /* RC width */
+}
+#footer {
+  clear: both;
+}
+/* IE6 fix */
+* html #sidebar-first {
+  left: 160px;           /* RC width */
+}
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+
+.views-field-title {
+	font-size:200%	;
+}
+
+
+.views-view-grid {
+  width: 96%;
+  border-bottom: 1px dotted #666;
+  margin: 5%;
+  padding: 3%;
+}
