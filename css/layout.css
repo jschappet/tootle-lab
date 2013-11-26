@@ -7,9 +7,10 @@ body {
         background-color:#ffffff;
         background-image:url(../images/background_img.gif);
         background-repeat:repeat-x;
-        color:#666666;
+        color:#010101;
 	font-family: Calibri, Arial, Helvetica, sans-serif;
 }
+
 
 h2 {
 margin-top:5px;
@@ -252,6 +253,14 @@ height:20px;
 #bottom_nav ul {
         margin:0px 0px 0px -40px;
 
+}
+
+ol li {
+
+	margin-left: 0;
+	margin-right: 10%;
+	margin-top: .7em;
+	margin-bottom: .7em;
 }
 
 #bottom_nav li {
